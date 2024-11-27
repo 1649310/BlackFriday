@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body{
+    background: linear-gradient(90deg, #001024, #002555, #001024);
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+}
+h1, h2, h3, h4, p, ul {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.hidden {
+    visibility: hidden;
+}
+.header {
+    padding: 50px 0;
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-list {
+    display: flex;
+    gap: 40px;
+}
+.header-link {
+    font-size: 16px;
+    color: #fff;
+}
+.header-link:hover {
+    color: #ffe251;
+    font-weight: 600;
+}
+.hero {
+    padding: 40px 0 170px;
+}
+.hero-container {
+    background-image: url(./images/hero-background.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+.hero-title {
+    font-size: 116px;
+    color: #fff;
+    text-transform: uppercase;
+    width: 430px;
+    font-weight: 900;
+    line-height: 90%;
+    
+}
+.hero-text {
+    background-color: #E50103;
+    width: 426px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 10px 27px 13px;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 24px;
+    margin-bottom: 37px;
+}
+.hero-courses-list {
+    width: 580px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.hero-courses-link {
+    background-color: rgb(255, 255, 255, 0.2);
+    padding: 5px 0px 6px 45px;
+    border-radius: 8.6px;
+    color: #fff;
+    font-size: 20.7px;
+    font-weight: 600;
+    line-height: 140%;
+    margin-bottom: 15px;
+    width: 175px;
+    display: block;
+    user-select: none;
+}
+
+.hero-courses-link:hover {
+    background-color: #8394B0;
+}
+.front-end {
+    background-image: url(./images/Frontend.png);
+    background-repeat: no-repeat;
+    background-size: 27.4px;
+    background-position: 10px center;
+}
+.python {
+    background-image: url(./images/Python.png);
+    background-repeat: no-repeat;
+    background-size: 27.4px;
+    background-position: 10px center;
+}
+.qa-manual {
+    background-image: url(./images/QAmanual.png);
+    background-repeat: no-repeat;
+    background-size: 27.4px;
+    background-position: 10px center;
+}
+.full-stack {
+    background-image: url(./images/FullStack.png);
+    background-repeat: no-repeat;
+    background-size: 27.4px;
+    background-position: 10px center;
+}
+.c-net {
+    background-image: url(./images/c-net.png);
+    background-repeat: no-repeat;
+    background-size: 27.4px;
+    background-position: 10px center;
+}
+.java {
+    background-image: url(./images/Java.png);
+    background-repeat: no-repeat;
+    background-size: 23px;
+    background-position: 10px center;
+    margin-bottom: 0;
+}
